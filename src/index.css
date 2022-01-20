@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#first-section {
+    background-color: #F5F3F3;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 6vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#logo {
+    position: relative;
+    margin-left: 8vw;
+    width: 8rem;
+    height: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #E64336;
+    color: #FFFFFF;
+    border-radius: 5px 20px 5px;
+    box-shadow:10px 10px 10px #C4C2C2;
+}
+
+#main-content {
+    position: absolute;
+    bottom: 5vh;
+    width: 55vw;
+    margin-left: 25vw;
+    margin-right: 10vw;
+}
+
+#main-heading {
+    font-size: 7vw;
+    text-align: center;
+    padding-bottom: 24px;
+    background-image: linear-gradient(to right, rgba(139,44,60),rgba(39,111,216),rgba(0,0,0),rgba(39,111,216));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#main-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+#apple-icon {
+    margin-right: 38px;
+}
+
+i {
+    float: left;
+    margin-top: 6px;
+    margin-right: 24px;
+    padding-bottom: 12px;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+#tiny-text {
+    justify-content: center;
+    margin-left: 12px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    line-height: 40%;
+    color: #000000;
+}
+
+.store-text {
+    float: right;
+    margin-top: 22px;
+    margin-left: 12px;
+    padding-bottom: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 20%;
+    color: #000000;
+    
+}
+
+.btn-outline-secondary {
+    border-width: 2px !important;
+    border-color:#8B2C3C!important;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 12px;    
+}
+
+.btn {
+    margin-bottom: 12px !important;
+    margin-right: 8px;
+    background: none;
 }
